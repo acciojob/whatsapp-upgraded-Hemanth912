@@ -117,7 +117,7 @@ public class WhatsappRepository {
         boolean check=false;
         for(User user1:groupHashMap.get(group)){
             if(user1.equals(user)){
-                check=true;
+                check=false;
             }
         }
 
